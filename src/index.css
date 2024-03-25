@@ -4,3 +4,14 @@
   box-sizing: border-box;
   font-family: sans-serif;
 }
+
+body {
+  background-image: url("supermercado-e-carrinho-de-compras.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  width: 100vw;
+}

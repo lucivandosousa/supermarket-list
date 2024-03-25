@@ -1,0 +1,57 @@
+.container {
+  background-color: #deb887;
+  border-radius: 0.5rem;
+  padding: 1rem;
+  max-height: 600px;
+  height: 100vh;
+  overflow: auto;
+}
+
+.container h1 {
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+.container input {
+  border: none;
+  border-radius: 0.5rem;
+  height: 3rem;
+  outline: none;
+  padding: 1rem;
+  margin: 0 0.5rem;
+}
+
+.container button {
+  border: none;
+  border-radius: 0.5rem;
+  height: 3rem;
+  padding: 1rem;
+  margin: 0 0.5rem;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.itens-list {
+  padding: 0.5rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #fff;
+  border-radius: 0.5rem;
+  margin-top: 0.5rem;
+}
+
+.empity-list {
+  text-align: center;
+  font-weight: bold;
+  margin-top: 1rem;
+}
+
+.itemCheck {
+  text-decoration: line-through;
+  color: #ff0000;
+}
+
+button:hover {
+  background-color: #bfccd9;
+}
