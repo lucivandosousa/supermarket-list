@@ -59,7 +59,7 @@ function App() {
     <div className="container">
 
       <h1>Lista de Supermercado</h1>
-      <input type="text" onChange={handleInputItens} value={inputText} />
+      <input type="text" onChange={handleInputItens} value={inputText} placeholder='adicione um item...'/>
       <button onClick={() => saveItem(inputText)}>Adicionar</button>
 
       {itens.length === 0 && <p className="empity-list">Sua lista de compras está vazia.</p>}
