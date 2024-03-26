@@ -6,7 +6,7 @@
 }
 
 body {
-  background-image: url("supermercado-e-carrinho-de-compras.jpeg");
+  background-image: url("/supermercado-e-carrinho-de-compras.jpeg");
   background-repeat: no-repeat;
   background-size: cover;
   display: flex;
