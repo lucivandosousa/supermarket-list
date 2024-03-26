@@ -1,0 +1,18 @@
+{
+  "version": 2,
+  "builds": [
+    {
+      "src": "src/index.tsx",
+      "use": "@vercel/node",
+      "config": {
+        "includeFiles": ["public/supermercado-e-carrinho-de-compras.jpeg"]
+      }
+    }
+  ],
+  "routes": [
+    {
+      "src": "/(.*)",
+      "dest": "/index.html"
+    }
+  ]
+}
